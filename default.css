@@ -7,6 +7,7 @@ body {
     outline: 0;
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
+    box-sizing: border-box;
 }
 :root {
     --brand1: #191C25;
