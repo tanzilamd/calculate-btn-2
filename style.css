@@ -1,0 +1,45 @@
+body {
+    background-color: var(--brand1);
+    padding: 50px 0;
+}
+.app .title {
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+.calculator { 
+    
+}
+.calculator .input_button { 
+    margin: 0 15px ;
+}
+.calculator .input_button form input { 
+    padding: 15px ;
+    width: 80%;
+    margin-bottom: 15px;
+    color: var(--brand1);
+}
+.calculator .input_button button { 
+    padding: 10px 25px;
+    border: none;
+    background-color: var(--brand1);
+    color: var(--w);
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 30px white;
+    cursor: pointer;
+}
+.cal_result {
+    background-color: var(--brand1);
+    color: var(--w);
+    width: 60%;
+    padding: 10px;
+    min-height: 150px;
+}
+.cal_result ul li {
+    padding: 10px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}

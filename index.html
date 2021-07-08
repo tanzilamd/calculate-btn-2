@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="app">
+        <div class="container">
+            <h1 class="title">
+                Calculation with Button
+            </h1>
+            <div class="calculator">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="flex">
+                            <div class="input_button">
+                                <form action="#" name="datas">
+                                    <input type="text" name="number1" placeholder="First Number">
+                                    <input type="text" name="number2" placeholder="Second Number">
+                                    <button type="button" onclick="cal(+datas.number1.value, +datas.number2.value)">Sum</button>
+                                    <button type="button" onclick="cal(+datas.number1.value, +datas.number2.value)">Sub</button>
+                                    <button type="button" onclick="cal(+datas.number1.value, +datas.number2.value)">Mul</button>
+                                    <button type="button" onclick="cal(+datas.number1.value, +datas.number2.value)">Div</button>
+                                    <button type="button" onclick="cal(+datas.number1.value, +datas.number2.value)">Mod</button>
+                                    <button type="button" onclick="cal(+datas.number1.value, +datas.number2.value)">/*/</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="flex">
+                            <div class="cal_result">
+                                <ul id="myList">
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
