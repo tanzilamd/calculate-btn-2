@@ -15,9 +15,9 @@ body {
     width: 100%;
 }
 
-.calculator .input_button form input { 
-    padding: 15px ;
-    width: 80%;
+.calculator .input_button form input {
+    padding: 15px;
+    width: 85%;
     margin-bottom: 15px;
     color: var(--brand1);
 }
